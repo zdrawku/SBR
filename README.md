@@ -1,2 +1,2 @@
-# BSR
-Bitcoin Strategic Reserve Newsletter 
+# SBR
+Strategic Bitcoin Reserve Newsletter 
