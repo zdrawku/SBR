@@ -27,16 +27,16 @@ header p {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 main {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 h2 {
     color: #1e88e5;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 ul {
@@ -96,4 +96,16 @@ button:hover {
     background-color: #f6f6f6;
     color: #000;
     transform: scale(1.05);
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Adds space between icons */
+    justify-content: center; /* Centers icons horizontally */
+    align-items: center; /* Centers icons vertically */
+}
+
+.social-link {
+    display: inline-block; /* Ensures the icons are displayed inline without any extra space */
+    margin: 0; /* Removes default margin that can cause spacing between icons */
 }
