@@ -1,10 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     color: #333;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
+    background: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png');
+    background-size: cover;
 }
 
 header {
@@ -24,10 +27,21 @@ header p {
     font-size: 1.2rem;
 }
 
-.container {
-    max-width: 800px;
+/* .container {
+    max-width: 900px;
     margin: 0 auto;
     padding: 10px;
+} */
+
+.container {
+    text-align: start;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    margin: 30px auto;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 6px 10px 15px 6px rgba(0, 0, 0, 0.1);
 }
 
 main {
@@ -101,11 +115,71 @@ button:hover {
 .social-icons {
     display: flex;
     gap: 10px; /* Adds space between icons */
-    justify-content: center; /* Centers icons horizontally */
-    align-items: center; /* Centers icons vertically */
+    padding-right: 27px;
 }
+
+.social-icons-end {
+    justify-content: flex-end; /* Aligns icons to the right */
+}
+
+.social-icons-center {
+    justify-content: center; /* Centers icons horizontally */
+}
+
 
 .social-link {
     display: inline-block; /* Ensures the icons are displayed inline without any extra space */
     margin: 0; /* Removes default margin that can cause spacing between icons */
+}
+
+/* Hamburger Icon */
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    font-size: 1.8em;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Navigation Drawer */
+.nav-drawer {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.nav-drawer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-drawer li {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+}
+
+.nav-drawer li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-drawer li a:hover {
+    color: #f90;
+}
+
+/* Show Drawer */
+.nav-drawer.show {
+    left: 0;
 }

@@ -1,3 +1,30 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburgerMenu = document.querySelector(".hamburger-menu");
+    const navDrawer = document.querySelector(".nav-drawer");
+    const navLinks = document.getElementById("nav-links");
+
+    // Toggle the navigation drawer
+    hamburgerMenu.addEventListener("click", () => {
+        navDrawer.classList.toggle("show");
+    });
+
+    // Find all h1, h2, and h3 elements and create links
+    const headings = document.querySelectorAll("h1, h2, h3");
+    headings.forEach((heading, index) => {
+        const id = `heading-${index}`;
+        heading.setAttribute("id", id);
+
+        const listItem = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = `#${id}`;
+        link.textContent = heading.textContent;
+
+        listItem.appendChild(link);
+        navLinks.appendChild(listItem);
+    });
+});
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const fadeIns = document.querySelectorAll('.fade-in');
     const slideUps = document.querySelectorAll('.slide-up');
