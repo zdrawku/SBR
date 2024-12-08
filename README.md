@@ -6,6 +6,8 @@ Our primary goal is not to focus on NFTs but to actively search for impactful ne
 
 Each week, we reward community members who share the most relevant and legitimate SBR news with unique, collectible NFTs. Your contributions help us build a stronger, more informed community. The goal is not the NFT collections but building a proactive, informed community.
 
+Here are the mechanics that will be used for NFT minting and distribution. [XRPL.org docus](https://xrpl.org/docs/tutorials/javascript/nfts/transfer-nfts) and [Development](https://github.com/XRPLF/xrpl-dev-portal/blob/master/_code-samples/quickstart/js/3.mint-nfts.html).
+
 # Strategic Bitcoin Reserve Roadmap (Till Year-End)
 
 This list is prioritized to reflect our core belief: delivering value comes first. Our focus is on curating impactful news, fostering authentic community engagement, and raising awareness about Bitcoin’s potential to transform lives.

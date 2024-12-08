@@ -71,3 +71,29 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-up {
+    transform: translateY(20px);
+    transition: transform 0.5s ease-out;
+}
+
+.slide-up.visible {
+    transform: translateY(0);
+}
+
+button:hover {
+    background-color: #f6f6f6;
+    color: #000;
+    transform: scale(1.05);
+}
