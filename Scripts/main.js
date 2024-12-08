@@ -4,8 +4,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.getElementById("nav-links");
 
     // Toggle the navigation drawer
-    hamburgerMenu.addEventListener("click", () => {
+    const toggleNavDrawer = () => {
         navDrawer.classList.toggle("show");
+    };
+
+    hamburgerMenu.addEventListener("click", toggleNavDrawer);
+
+    // Close the navigation drawer when clicking outside
+    document.addEventListener("click", (event) => {
+        const isClickInsideMenu = navDrawer.contains(event.target);
+        const isClickOnHamburger = hamburgerMenu.contains(event.target);
+
+        if (!isClickInsideMenu && !isClickOnHamburger && navDrawer.classList.contains("show")) {
+            navDrawer.classList.remove("show");
+        }
     });
 
     // Find all h1, h2, and h3 elements and create links
@@ -23,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         navLinks.appendChild(listItem);
     });
 });
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
