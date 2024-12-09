@@ -128,6 +128,17 @@ button:hover {
     padding-right: 27px;
 }
 
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.social-icons i {
+    font-size: 1.5em;
+    color: white;
+}
+
 .social-icons-end {
     justify-content: flex-end; /* Aligns icons to the right */
 }
