@@ -10,6 +10,11 @@ body {
     background-size: auto;
 }
 
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
 .header-background {
     background-image: url('../Resources/Designer-19.png');
     background-size: cover;
