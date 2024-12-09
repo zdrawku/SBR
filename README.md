@@ -1,5 +1,5 @@
-# Strategic Bitcoin Reserve Newsletter
-Welcome to SBR the Strategic Bitcoin Reserve Newsletter 
+# Strategic Bitcoin Reserve Website
+Welcome to SBR the Strategic Bitcoin Reserve site 
 Our mission is to curate and share legitimate Bitcoin-related updates, sourced from trusted platforms like CoinDesk, The Block and Bitcoin Magazine.
 
 Our primary goal is not to focus on NFTs but to actively search for impactful news and foster informed discussions about Bitcoin's Strategic Reserve Development.
@@ -7,6 +7,15 @@ Our primary goal is not to focus on NFTs but to actively search for impactful ne
 Each week, we reward community members who share the most relevant and legitimate SBR news with unique, collectible NFTs. Your contributions help us build a stronger, more informed community. The goal is not the NFT collections but building a proactive, informed community.
 
 Here are the mechanics that will be used for NFT minting and distribution. [XRPL.org docus](https://xrpl.org/docs/tutorials/javascript/nfts/transfer-nfts) and [Development](https://github.com/XRPLF/xrpl-dev-portal/blob/master/_code-samples/quickstart/js/3.mint-nfts.html).
+
+# Site Navigation
+- **Home**: Overview of current XRP market sentiment and quick access to major sections.
+- **News**: Latest updates from the world of XRP, Ripple, and broader cryptocurrency news.
+- **Resources**: Compiled resources from the XRP community, including blogs, videos, and podcasts.
+- **Contact**: A way to get in touch with the site administrator for inquiries or feedback.
+
+## Technologies Used
+- HTML5, CSS3, JavaScript
 
 # Strategic Bitcoin Reserve Roadmap (Till Year-End)
 

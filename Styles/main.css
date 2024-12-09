@@ -10,21 +10,37 @@ body {
     background-size: auto;
 }
 
-header {
-    background: #1e88e5;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+.header-background {
+    background-image: url('../Resources/Designer-19.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
+.header-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #f6f6f6;
+    text-shadow: 1px 1px 3px #000000cc;
 }
 
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2rem;
+.header-content h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.header-content p {
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.social-icons i {
+    font-size: 1.5em;
+    color: white;
 }
 
 .container {
@@ -39,7 +55,7 @@ header p {
 }
 
 h2 {
-    color: #1e88e5;
+    color: #8f700a;
     margin-top: 10px;
 }
 
