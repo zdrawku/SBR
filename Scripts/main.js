@@ -57,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
         navLinkElements.forEach((link) => {
             link.addEventListener("click", (e) => {
                 e.preventDefault();
-                debugger;
                 const targetId = e.target.getAttribute("href").substring(1);
                 const targetElement = document.getElementById(targetId);
     
