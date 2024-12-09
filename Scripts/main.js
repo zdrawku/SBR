@@ -26,9 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const createHeadingLinks = () => {
         const headings = document.querySelectorAll("h1, h2, h3");
         headings.forEach((heading, index) => {
-            const id = `heading-${index}`;
-            heading.id = id;
-
+            let id = heading.id;
+            if (!id) {
+                const section = heading.closest("section");
+                if (section && section.id) {
+                    id = section.id;
+                } else {
+                    id = `heading-${index}`;
+                    heading.id = id;
+                }
+            }
+    
             const listItem = document.createElement("li");
             listItem.innerHTML = `<a href="#${id}">${heading.textContent}</a>`;
             navLinks.appendChild(listItem);
