@@ -6,7 +6,7 @@ body {
     color: #333;
     line-height: 1.6;
     /* background-color: #f9f9f9; */
-    background: url('../Resources/5648074.jpg');
+    background: url('../Resources/5648074.webp');
     background-size: auto;
 }
 
@@ -16,7 +16,7 @@ header {
 }
 
 .header-background {
-    background-image: url('../Resources/Designer-19.png');
+    background-image: url('../Resources/Designer-19.webp');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.6);
